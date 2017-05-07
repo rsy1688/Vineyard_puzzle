@@ -103,8 +103,8 @@ class Vineyard {
 
 }
 
-$wine = new Vineyard();
-$wine->generateWineList("person_wine_3.txt");
-$wine->generateWineAllotmentList();
-$wine->outputWineAllotmentList('wine_alloted_list.txt');
+$vineyard = new Vineyard();
+$vineyard->generateWineList("person_wine_3.txt");
+$vineyard->generateWineAllotmentList();
+$vineyard->outputWineAllotmentList('wine_alloted_list.txt');
 ?>
